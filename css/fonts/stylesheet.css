@@ -1,0 +1,13 @@
+
+@font-face {
+  font-family: 'ShadowsIntoLight';
+  src: url('ShadowsIntoLight.eot');
+  src: url('ShadowsIntoLight.eot?#iefix') format('embedded-opentype'),
+       url('ShadowsIntoLight.woff') format('woff'),
+       url('ShadowsIntoLight.ttf') format('truetype'),
+       url('ShadowsIntoLight.svg#ShadowsIntoLight') format('svg');
+}
+
+.fontpro,.fontpro-36267 {
+  font-family: 'ShadowsIntoLight',sans-serif;
+}

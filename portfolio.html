@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<!-- Template by Quackit.com -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>Portfolio</title>
+
+		<!-- Bootstrap Core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
+		<link href="css/custom.css" rel="stylesheet">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+	</head>
+	<body>
+		<!-- Navigation -->
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<!-- Logo and responsive toggle -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+			      <a class="navbar-brand" href="bio.html" >
+					Camaysa Crittenden | Biography
+                </a>
+				</div>
+				<!-- Navbar links -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="lead.html">Leadership/Service</a>
+						</li>
+						<li>
+							<a href="honors.html">Honors/Awards</a>
+						</li>
+						<li class="active">
+							<a href="portfolio.html">Portfolio</a>
+						</li>
+					</ul>
+					
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container -->
+		</nav>
+
+		<!-- Content -->
+		<div class="container">
+
+			<!-- Heading -->
+			<div class="row">
+				<div class="col-lg-12">
+					<h1 class="page-header">Portfolio
+						<small>Recent Work</small>
+					</h1>
+				</div>
+			</div>
+			<!-- Inner Page Tabs -->
+			<div class="tab">
+			  <button class="tablinks" onclick="openPortfolio(event, '2D')" id="defaultOpen">2D Graphics</button>
+			  <button class="tablinks" onclick="openPortfolio(event, '3D')">3D Graphics</button>
+			  <button class="tablinks" onclick="openPortfolio(event, 'Video')">Video & Animation</button>
+			  <button class="tablinks" onclick="openPortfolio(event, 'Web')">Wed Development</button>
+			</div>
+
+			<div id="2D" class="tabcontent">
+			  <h3>2D Graphics | Photoshop & Illustrator</h3>
+			  <p>Adobe Photoshop is an amazing graphic program that allows me to be creative and add effects to images to make them even more beautiful</p>
+				<!-- Projects Row -->
+			<div class="row">
+				<div class="col-md-6 portfolio-item">
+					<a href="#">
+						<img class="img-responsive" src="images/mrskposter.jpg" alt="">
+					</a>
+					<h3>
+						<a href="#">Photoshop Project</a>
+					</h3>
+					<p>This is a project that I had to do in class. The objective was to take an image of one of our faculty members and create a polygonal effect. It took a lot of time to make this project, because it required making over 300 polygons to create her face.</p>
+				</div>
+				<div class="col-md-6 portfolio-item">
+					<a href="#">
+						<img class="img-responsive" src="images/mrskposter.jpg" alt="Illustrator graphic polygonal effect project image">
+					</a>
+					<h3>
+						<a href="#">Illustrator Project</a>
+					</h3>
+					<p>This is a project that I had to do in class. The objective was to take an image of one of our faculty members and create a polygonal effect. It took a lot of time to make this project, because it required making over 300 polygons to create her face.</p>
+				</div>
+			</div>
+			<!-- /.row -->
+			</div>
+
+			<div id="3D" class="tabcontent">
+			  <h3>3D Graphics | Autodesk Maya & Mudbox</h3>
+			  <p>Write a sentence or two about programs here.</p> 
+			  <!-- Projects Row -->
+			  <div class="row">
+				<div class="col-md-6 portfolio-item">
+					<a href="#">
+						<img class="img-responsive" src="http://lorempixel.com/700/400/nature/1" alt="">
+					</a>
+					<h3>
+						<a href="#">Mudbox Project</a>
+					</h3>
+					<p>Discuss the project here!</p>
+				</div>
+				<div class="col-md-6 portfolio-item">
+					<a href="#">
+						<img class="img-responsive" src="http://lorempixel.com/700/400/nature/2" alt="">
+					</a>
+					<h3>
+						<a href="#">Maya Project</a>
+					</h3>
+					<p>Discuss the project here.</p>
+				</div>
+				</div>
+			</div>
+			<div id="Video" class="tabcontent">
+			  <h3>Video & Animation</h3>
+			  <p>Write a sentence or two about Premiere, After Effects here.</p>
+			   <!-- Projects Row -->
+			  <div class="row">
+				<div class="col-md-6 portfolio-item">
+					<a href="#">
+						<img class="img-responsive" src="http://lorempixel.com/700/400/nature/1" alt="">
+					</a>
+					<h3>
+						<a href="#">Premiere Project</a>
+					</h3>
+					<p>Discuss the project here!</p>
+				</div>
+				<div class="col-md-6 portfolio-item">
+					<a href="#">
+						<video width="100%" controls >
+							<source src="images/ufo.mp4" type="video/mp4">
+							<source src="images/ufo.ogg" type="video/ogg">
+								Your browser does not support the video tag.
+						</video>
+					</a>
+					<h3>
+						<a href="#">After Effects Project</a>
+					</h3>
+					<p>Discuss the project here.</p>
+				</div>
+				</div>
+			</div>
+			<div id="Web" class="tabcontent">
+			  <h3>Web Development</h3>
+			  <p>Write a sentence or two about web projects here.</p>
+			     <!-- Projects Row -->
+			  <div class="row">
+					<div class="col-md-6 portfolio-item">
+						<a href="#">
+							<img class="img-responsive" src="http://lorempixel.com/700/400/nature/1" alt="">
+						</a>
+						<h3>
+							<a href="#">Premiere Project</a>
+						</h3>
+						<p>Discuss the project here!</p>
+					</div>
+			
+			<!-- /.row -->
+				</div>
+			</div>
+			<!-- /.container -->
+		
+		<footer>
+			<div class="copyright">
+				<div class="container">
+					<p>Copyright &copy; 2017-2018</p>
+				</div>
+			</div>
+		</footer>
+
+		<!-- jQuery -->
+		<script src="js/jquery-1.11.3.min.js"></script>
+
+		<!-- Bootstrap Core JavaScript -->
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+			function openPortfolio(evt, projectName) {
+				var i, tabcontent, tablinks;
+				tabcontent = document.getElementsByClassName("tabcontent");
+				for (i = 0; i < tabcontent.length; i++) {
+					tabcontent[i].style.display = "none";
+				}
+				tablinks = document.getElementsByClassName("tablinks");
+				for (i = 0; i < tablinks.length; i++) {
+					tablinks[i].className = tablinks[i].className.replace(" active", "");
+				}
+				document.getElementById(projectName).style.display = "block";
+				evt.currentTarget.className += " active";
+			}
+			// Get the element with id="defaultOpen" and click on it
+				document.getElementById("defaultOpen").click();
+	</script>
+	</body>
+
+</html>
